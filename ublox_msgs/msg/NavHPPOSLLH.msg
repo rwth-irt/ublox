@@ -15,15 +15,15 @@ uint8 version
 uint8[2] reserved1
 int8 invalid_llh
 
-uint32 iTOW             # GPS Millisecond Time of Week [ms]
+uint32 i_tow             # GPS Millisecond Time of Week [ms]
 
 int32 lon               # Longitude [deg / 1e-7]
 int32 lat               # Latitude [deg / 1e-7]
 int32 height            # Height above Ellipsoid [mm]
-int32 hMSL              # Height above mean sea level [mm]
-int8 lonHp              # Longitude [deg / 1e-9, range -99 to +99]
-int8 latHp              # Latitude [deg / 1e-9, range -99 to +99]
-int8 heightHp          # Height above Ellipsoid [mm / 0.1, range -9 to +9]
-int8 hMSLHp            # Height above mean sea level [mm / 0.1, range -9 to +9]
-uint32 hAcc             # Horizontal Accuracy Estimate [mm / 0.1]
-uint32 vAcc             # Vertical Accuracy Estimate [mm / 0.1]
+int32 h_msl              # Height above mean sea level [mm]
+int8 lon_hp              # Longitude [deg / 1e-9, range -99 to +99]
+int8 lat_hp             # Latitude [deg / 1e-9, range -99 to +99]
+int8 height_hp          # Height above Ellipsoid [mm / 0.1, range -9 to +9]
+int8 h_msl_hp            # Height above mean sea level [mm / 0.1, range -9 to +9]
+uint32 h_acc             # Horizontal Accuracy Estimate [mm / 0.1]
+uint32 v_acc             # Vertical Accuracy Estimate [mm / 0.1]

@@ -11,15 +11,15 @@ uint8 MESSAGE_ID = 19
 uint8 version
 uint8[3] reserved0
 
-uint32 iTOW             # GPS Millisecond Time of Week [ms]
+uint32 i_tow             # GPS Millisecond Time of Week [ms]
 
-int32 ecefX             # ECEF X coordinate [cm]
-int32 ecefY             # ECEF Y coordinate [cm]
-int32 ecefZ             # ECEF Z coordinate [cm]
+int32 ecef_x             # ECEF X coordinate [cm]
+int32 ecef_y            # ECEF Y coordinate [cm]
+int32 ecef_z             # ECEF Z coordinate [cm]
 
-int8 ecefXHp            # ECEF X high precision component [0.1mm]
-int8 ecefYHp            # ECEF Y high precision component [0.1mm]
-int8 ecefZHp            # ECEF Z high precision component [0.1mm]
+int8 ecef_x_hp            # ECEF X high precision component [0.1mm]
+int8 ecef_y_hp            # ECEF Y high precision component [0.1mm]
+int8 ecef_z_hp            # ECEF Z high precision component [0.1mm]
 uint8 flags
 
-uint32 pAcc             # Position Accuracy Estimate [0.1mm]
+uint32 p_acc             # Position Accuracy Estimate [0.1mm]
